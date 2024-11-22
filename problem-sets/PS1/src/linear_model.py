@@ -36,3 +36,4 @@ class LinearModel(object):
             Outputs of shape (m,).
         """
         raise NotImplementedError('Subclass of LinearModel must implement predict method.')
+

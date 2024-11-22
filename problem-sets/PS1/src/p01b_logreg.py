@@ -56,6 +56,6 @@ class LogisticRegression(LinearModel):
     
         return (1 / (1 + np.exp(-x.dot(self.theta))))>=0.5
 
-main(train_path='mnt\\d\\ml\\problem-sets\\PS1\\data\\ds1_train.csv',
-      eval_path='mnt\\d\\ml\\problem-sets\\PS1\\data\\ds1_valid.csv',
+main(train_path='D:\ml\problem-sets\PS1\data\ds1_train.csv',
+      eval_path='D:\ml\problem-sets\PS1\data\ds1_valid.csv',
       pred_path='output/p01b_pred_1.txt')
